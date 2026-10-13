@@ -244,7 +244,7 @@ def main():
 
         # Use India-local time for the filename, independent of runner timezone.
         today_ist = datetime.now(ZoneInfo("Asia/Kolkata"))
-        filename = f"resume_{today_ist.strftime('%d_%b_%Y').lower()}.pdf"
+        filename = "Abhishekkr_Resume.pdf"
 
         file_key = upload_file(
             pdf_bytes,
